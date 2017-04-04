@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:id="@+id/config">
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="355dp"
+        android:layout_height="47dp"
+        android:text="Bluetooth Tracking"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:checked="true"
+        android:text="GPS Tracking"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="22dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="360dp"
+        android:layout_height="44dp"
+        android:checked="true"
+        android:splitTrack="false"
+        android:text="Safe Zone"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="157dp"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:id="@+id/textView00"
+        android:layout_width="363dp"
+        android:layout_height="34dp"
+        android:text="Device Identity"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <Button
+        android:id="@+id/button00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APPLY"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="359dp"
+        android:layout_weight="0.04" />
+
+</LinearLayout>

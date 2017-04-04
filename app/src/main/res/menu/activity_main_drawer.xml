@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/home" />
+    </group>
+
+
+
+
+    <group
+        android:id="@+id/account">
+        <item android:title="@string/account">
+            <menu>
+                <item
+                    android:id="@+id/nav_edit_info"
+                    android:icon="@drawable/ic_menu_edit"
+                    android:title="@string/edit_basic_information" />
+
+                <item
+                    android:id="@+id/nav_edit_notif"
+                    android:icon="@drawable/ic_menu_notification"
+                    android:title="@string/notifications_settings" />
+
+                <item
+                    android:id="@+id/nav_add_Device"
+                    android:icon="@drawable/ic_menu_notification"
+                    android:title="@string/add_device" />
+            </menu>
+        </item>
+
+    </group>
+
+
+
+
+</menu>

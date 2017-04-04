@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_sign_up"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.nano.childtracker.SignUp">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:paddingBottom="20dp">
+
+            <EditText
+                android:id="@+id/name_sign_up"
+                android:layout_width="364dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint=" Name"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/mob_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Mobile Number"
+                android:inputType="phone" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:text="Gender"
+                    android:width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:layout_width="wrap_content"
+                    tools:targetApi="jelly_bean" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/gender_sign_up"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <RadioButton
+                        android:text="Male"
+                        android:id="@+id/male_sign_up"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:layout_weight="0.25" />
+
+                    <RadioButton
+                        android:id="@+id/female_sign_up"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Female" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!-- <fragment
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentStart="true"
+                 android:id="@+id/map2"/>
+     -->
+
+
+            <!--     <com.google.android.gms.maps.MapFragment
+                     android:layout_width="match_parent"
+                     android:layout_height="200dp"
+                     android:id="@+id/map1"/>-->
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Complete Sign Up!"
+
+
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/button" />
+</LinearLayout>

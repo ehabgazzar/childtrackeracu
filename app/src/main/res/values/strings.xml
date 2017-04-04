@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">Child Tracker app</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_launcher" translatable="false">Launcher</string>
+    <string name="check_login" translatable="false">Launcher</string>
+    <string name="check_login_def" translatable="false">false</string>
+    <string name="title_activity_main">Main</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="usernameDefault">UserName</string>
+    <!--<string name="about_company">Anything about Teqneia,Anything about Teqneia,Anything about Teqneia</string>-->
+    <string name="notif_title_default">Someone near you, needs your help!</string>
+    <string name="notif_mobile">Contact: </string>
+    <string name="notif_location">Location: </string>
+    <string name="notif_blood">Needed Blood Type: </string>
+    <string name="notif_mail">Receive Notifications on Email:</string>
+    <string name="notif_mob">Receive Notifications on Mobile:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="gcm_send_message" translatable="false">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="registering_message" translatable="false">Generating InstanceID token...</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+
+
+    <string name="title_activity_verification">VerificationActivity</string>
+    <string name="username">Name</string>
+    <string name="bloodtype">Blood Type</string>
+    <string name="requestinfo">Request information</string>
+    <string name="reqlocation">Location </string>
+    <string name="unkowntext">Unknown</string>
+
+    <string name="aboutus">TEQNEIA ICT is an ambitious Software house, established to serve the growing demand in the world’s market for reliable state-of-art software solutions. TEQNEIA is providing a diversified telecom services and software development  projects aiming to introduce innovative solutions for current telecom field challenges. </string>
+    <string name="set_location">Set Location</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="location_details">Location Details</string>
+    <string name="name">Name</string>
+    <string name="patient_name">Patient Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="request_date">Request Date</string>
+    <string name="show_location">Show Location</string>
+    <string name="blood_tybe">blood tybe</string>
+    <string name="location">location</string>
+    <string name="unkown_date">unkown date</string>
+    <string name="new_member_sign_up">New member ? Sign up</string>
+    <string name="log_in">Log In</string>
+    <string name="registered_email_address">Registered Email address</string>
+    <string name="registered_mob_num">Registered Mobile Num.</string>
+
+    <string name="a" translatable="false">A</string>
+    <string name="ab" translatable="false">AB</string>
+    <string name="b" translatable="false">B</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="click_icon_to_set_your_location">Click icon to set your location</string>
+    <string name="date_of_birthday">Date Of Birthday</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="last_donation_date">Last Donation Date</string>
+    <string name="male">Male</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="negative" translatable="false">Negative</string>
+    <string name="o" translatable="false">O</string>
+    <string name="positive" translatable="false">Positive</string>
+    <string name="rh" translatable="false">RH</string>
+    <string name="sign_up">COMPLETE SIGN UP</string>
+    <string name="select_country">Select Country</string>
+    <string name="user_name">User Name</string>
+    <string name="ok">OK</string>
+    <string name="type_your_verification_code_here">Type Your Verification Code Here:</string>
+    <string name="save">SAVE</string>
+    <string name="enter_your_message">Enter Your Message</string>
+    <string name="send">Send</string>
+    <string name="tap_to_request">Tap To Request</string>
+    <string name="off" />
+    <string name="on" />
+    <string name="empty_list">Empty List</string>
+    <string name="blood">Blood</string>
+    <string name="click_this_icon_to_set_location_on_map">Click this icon to set location on map</string>
+    <string name="contact_number">Contact number</string>
+    <string name="hospital_name">Hospital name</string>
+    <string name="location_details_room_num">Location details / Room Num.</string>
+    <string name="your_name">Your name</string>
+    <string name="hospital">Hospital</string>
+    <string name="patient">Patient</string>
+    <string name="about_teqneia">About Teqneia</string>
+    <string name="account">Account</string>
+    <string name="activity">Activity</string>
+    <string name="edit_basic_information">Edit Basic Information</string>
+    <string name="feedback">Feedback</string>
+    <string name="home">Home</string>
+    <string name="my_requests">My Requests</string>
+    <string name="notifications_list">Notifications List</string>
+    <string name="notifications_settings">Settings</string>
+    <string name="add_device">Add Device</string>
+    <string name="about_us_title">About Us</string>
+    <string name="edit_info_title">Edit Info</string>
+    <string name="info_updated">Your information has been updated</string>
+    <string name="check_internet_connection">Error Please Check Your Internet Connection and try again</string>
+    <string name="check_email">Please provide a valid email</string>
+    <string name="info_cannot_empty">Your information above cannot be empty</string>
+    <string name="done">DONE</string>
+    <string name="update_err">Error email exists</string>
+    <string name="verif_msg">Verification code sent to your email</string>
+    <string name="unsuc_reg">Unsuccessful Registration </string>
+    <string name="un_reg">Unregistered email</string>
+    <string name="welcome">Welcome</string>
+    <string name="verif_inval">Invalid Code</string>
+    <string name="feed_back_msg">Thank You, We will work on Your Feedback</string>
+    <string name="send_feedbakc">Send Feedback</string>
+    <string name="loc_saved">Location Saved</string>
+    <string name="dona_req">DONATION REQUEST</string>
+    <string name="cancel">Cancel</string>
+    <string name="req_now">Request now</string>
+    <string name="loc_not_set">Location not set</string>
+    <string name="reqsting">Requesting</string>
+    <string name="gps_dis">GPS is disabled in your device. Please enable it</string>
+    <string name="goto_en_gps">Goto Settings Page To Enable GPS</string>
+    <string name="marker_msg">Marker Dragged..!</string>
+    <string name="some_needs_dona">Someone needs donation</string>
+    <string name="notif_title">Notifications</string>
+    <string name="settings_title">Settings</string>
+    <string name="reqsts_title">Requests</string>
+    <string name="update_msg">Please Update</string>
+    <string name="OK">OK</string>
+    <string name="gps_msg">GPS is disabled in your device. Please enable it</string>
+    <string name="gps_goto">Goto Settings Page To Enable GPS</string>
+    <string name="check_name">Please Enter Your Name</string>
+    <string name="comp_msg">Please Click icon to set your location to complete your registration</string>
+    <string name="check_gps">Please check your Internet connection and GPS Availability</string>
+    <string name="no_permitions">No Permitions Granted</string>
+    <string name="home_title">B-Donor</string>
+    <string name="passowrd">Passowrd</string>
+    <string name="title_activity_sign_up1">SignUp</string>
+    <string name="enter_your_mobile_number">Enter Your Mobile Number</string>
+</resources>
